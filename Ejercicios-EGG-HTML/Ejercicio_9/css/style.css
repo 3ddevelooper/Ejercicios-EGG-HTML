@@ -1,0 +1,52 @@
+#titulo {
+  color: darkcyan;
+}
+
+strong {
+  color: red;
+}
+.destacado {
+  color: darkorange;
+}
+#subtitulo {
+  color: blue;
+}
+
+p a {
+  color: red;
+}
+p a:visited em {
+  color: blue;
+}
+span{
+  color: blueviolet;
+}
+.especial{
+    color: yellow;
+}
+caption{
+    color: black;
+}
+table,
+td,
+th {
+  border: 1px solid black;
+  color: red;
+  padding: 5px;
+}
+
+table {
+  border-collapse: collapse;
+}
+table tbody tr td{
+    color: green;
+}
+table tbody tr td strong{
+    color: yellow
+}
+#adicional, #adicional p:nth-child(1) span:nth-child(1){
+    color:darkgoldenrod;
+}
+#adicional a{
+   color: green;
+}

@@ -1,0 +1,23 @@
+table,
+td,
+th {
+  border: 1px solid black;
+  padding: 5px;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+table {
+  border-collapse: collapse;
+}
+table th{
+    background-image: url(../assets/fondo_gris.gif);
+}
+table tr:nth-child(1n) td:nth-child(1){
+    font-weight: bolder;
+    background-color: #E6F3FF;
+    text-align: left;
+}
+table tr:nth-child(2) td,
+table tr:nth-child(4) td{
+    background-color: #FFFFCC;
+}
